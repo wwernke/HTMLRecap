@@ -4,19 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Recap Assignment</title>
+    <title>HTMLRecap Assignment</title>
 </head>
 <body>
-    <h1>Demonstrating a few HTML Elements</h1>
-    <h2>Form</h2>
+    <h1>Help Desk Form</h1>
 
-    <h2>Input</h2>
-
-    <h2>Div</h2>
-
-    <h2>Ifram</h2>
-
-    <h2>Nav</h2>
-    
+    <p>Please log each call below and complete the form in full.</p>    
+    <h2>Employee Call Data</h2>
+    <div style="border: solid 6px black; padding: .9rem">
+        <form>
+            <Fieldset>
+            <legend>Employee Information</legend>
+            <p>
+                <label>Company ID: <input /></label>
+            </p>
+            <p>
+                <label>Cellphone: <input /></label>
+            </p>
+            </Fieldset>
+        </form>
+<br/>
+        <form>
+        <Fieldset>
+        <legend>Desk Location</legend>
+        <p>
+            <input type="radio" name="size" id="size0" value="size0" />
+            <label for="size0">Building 1</label>
+        </p>
+        <p>
+            <input type="radio" name="size" id="size1" value="size1"/>
+            <label for="size1">Building 2</label>
+        <p/>
+        <p>
+            <input type="radio" name="size" id="size1" value="size1"/>
+            <label for="size1">Remote</label>
+        <p/>
+        </Fieldset>
+        </form>
+            <div style="background-color: rgba(255, 115, 0, 0.747);">
+            <div style="color: white;">
+            <h3>IMPORTANT: Remote employees should be prioritized first!</h3>
+    </div>
+    </div>
+    </div>
+    <h2>Email and Log Information</h2>
+    <div style="border: solid 6px black; padding: .9rem">
+        <p>Employee Email Address: <input type="email"/></p>
+        <p>Same Issue/Recall #: <input type="number"/></p>
+    </div>
+<br/>
+    <p>Looking for a few great Call Tips and Tricks? Please check out this video by Rea Ninja!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XDZv9FS3peg" frameborder="0" allowfullscreen></iframe>
+    <p>Content reference: <a href="https://www.youtube.com/channel/UCiVkvULQiR-lsmCHqQ9LosA" target="_blank">Rea Ninja Youtube</a></p>
+    <hr />
+    <h2>Frequently Asked Questions</h2>
+<footer>
+    <ol>
+        <li><a href="#equipmentreturnaddress">Equipment Return Shipping Address</a></li>
+        <li><a href="#equipmentusepolicy">Our Equipment Use Policy</a></li>
+        <li><a href="#escalationphone">Escalation Number</a></li>
+    </ol>
+</footer>
 </body>
 </html>
